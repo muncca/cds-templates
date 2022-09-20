@@ -1,0 +1,67 @@
+% !TEX encoding = UTF-8 Unicode
+% !!!  THIS FILE IS UTF-8 !!!
+% !!!  MAKE SURE YOUR LaTeX Editor IS CONFIGURED TO USE UTF-8 !!!
+
+% Computational and Data Science Course Paper LaTeX Template
+% University of Applied Sciences of the Grisons
+% ---------------------------------------------------------------
+% Author: Corsin Capol corsin.capol@fhgr.ch
+% ---------------------------------------------------------------
+
+%-------------------------
+% header
+% ------------------------
+\documentclass[a4paper,12pt]{scrartcl}
+\linespread {1.25}
+
+%-------------------------
+% packages and config
+% ------------------------
+\input{packages_and_configuration}
+
+%-------------------------
+% document begin
+%-------------------------
+\begin{document}
+
+%-------------------------
+% title
+%-------------------------
+\input{title}
+
+\section{Einleitung}
+\citeauthor{Student2022} führt aus Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua \cite{Student2022}. 
+
+\section{Forschungsfragen und Methodik}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+\section{Resultate}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{l l}
+Lorem & ipsum \\\hline
+dolor sit amet & 66 \\
+consetetur sadipscing elitr & 99 \\
+\end{tabular}
+\caption{Lorem ipsum}
+\label{tab:lorem}
+\end{table}
+
+%\begin{figure}
+%  \includegraphics[width=\linewidth]{ipsum.jpg}
+%  \caption{Lorem ipsum}
+%  \label{fig:ipsum}
+%\end{figure}
+%Lorem ipsum dolor sit amet figure \ref{fig:ipsum}.
+
+\section{Diskussion}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+%-------------------------
+% literature
+%-------------------------
+\bibliography{library}
+
+\end{document}
